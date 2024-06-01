@@ -36,7 +36,7 @@ This program is designed to log environmental measurements, such as temperature 
 4. **Visualize Data:**
     After the program has run for the specified duration (10 minutes), it will plot the collected temperature and rain data.
 
-Notes
+## Notes
 The program logs data for a duration of 10 minutes, collecting data every 2 seconds.
 The timestamps are logged in Unix timestamp format.
 The API documentation is available at http://127.0.0.1:8000/docs.
