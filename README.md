@@ -1,8 +1,8 @@
-#Overview
+## Overview
 
-#This program is designed to log environmental measurements, such as temperature and rain presence, from a remote server. It saves the collected data to a log file and provides two API endpoints to access the temperature data at specific timestamps and to calculate the percentage of time it rained between two timestamps. The program also includes a feature to plot the collected data for visualization purposes.
+This program is designed to log environmental measurements, such as temperature and rain presence, from a remote server. It saves the collected data to a log file and provides two API endpoints to access the temperature data at specific timestamps and to calculate the percentage of time it rained between two timestamps. The program also includes a feature to plot the collected data for visualization purposes.
 
-Features
+## Features
 - **Data Retrieval:** Fetches environmental data from a remote server.
 - **Data Logging:** Saves the fetched data to a log file (`measurement_log.txt`).
 - **Data Visualization:** Plots the collected data (temperature and rain presence) using `matplotlib`.
