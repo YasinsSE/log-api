@@ -1,8 +1,8 @@
 """
 @file main.py
-@brief Main program to log environmental measurements and provide data through a FastAPI service.
-@date 06/2024
-@version 1.0
+@brief Program to log environmental measurements and provide data through a FastAPI service.
+@author Yasin YILDIRIM
+@date 05/2024
 
 This program retrieves environmental data from a remote server, logs the data, and provides
 two API endpoints to access temperature data at specific timestamps and to calculate
