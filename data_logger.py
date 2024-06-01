@@ -1,3 +1,14 @@
+"""
+@brief Program to log environmental measurements and provide data through a FastAPI service.
+@author Yasin YILDIRIM
+@date 05/2024
+
+This program retrieves environmental data from a remote server, logs the data, and provides
+two API endpoints to access temperature data at specific timestamps and to calculate
+the percentage of time it rained between two timestamps. It includes functions to plot
+the collected data for visualization purposes.
+"""
+
 import json
 import time
 import requests
@@ -141,9 +152,3 @@ if __name__ == "__main__":
 # Upon closing the figure, the program will terminate.
 
 # The server referenced by the .com domain is located in France.
-
-# I was confused about, in the measurement_log.txt I could demonstrate time in a HH:mm:ss format with datetime.fromtimestamp() function,
-# but I believe it is expected in the format "timestamp":1634000000 as specified.
-
-# Thank you for investing your time and interest.
-# Yasin YILDIRIM
